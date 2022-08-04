@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.appNetflix{
+    height: 140vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background: #000;
+}
+
+#background-foto{
+    height: 140vh;
+    width: 100%;
+    opacity: 20%;
+    position: absolute;
+}
+header{
+    height: 45px;
+    width: 100%;
+    background: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#Logo{
+    height: 20px;
+    width: 74px;
+    margin-left: 11px;
+    
+    position: absolute;
+}
+
+.login-body{
+    height: 100vh;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.form-body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: blueviolet;
+    padding: 20px 0px 30px;
+}
+
+h1{
+    width: 100%;
+    margin-bottom: 28px;
+    color: #fff;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.div-input-form{
+    padding: 0px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+input{
+    width: 100%;
+    background: #333;
+    border: 0;
+    border-radius: 4px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.placelabel{
+    color: #8c8c8c;
+    font-size: 14px;
+    position: absolute;
+    transform: translateY(-50%);
+    margin-left: 20px;
+}
+
+#placeSenha{
+    transform: translateY(-30%);
+}
+
+#senha_toggle{
+    position: absolute;
+    padding: 0 12px;
+    background: none;
+    border: none;
+    color: #8c8c8c;
+    font-size: 1.4rem;
+    height: 50px;
+    margin-left: 50%;
+    margin-bottom: 10px;
+}
+.btnEntrar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#Entrar{
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0 12px;
+    background: #e50914;
+    width: 90%;
+    border: none;
+    height: 50px;
+    color: #fff;
+
+}
+
+.ajuda{
+    display: flex;
+    width: 100%;
+    background-color: red;
+}
+.input-check-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#lembrar{
+    height: 20px;
+    width: 20px;
+}
+
